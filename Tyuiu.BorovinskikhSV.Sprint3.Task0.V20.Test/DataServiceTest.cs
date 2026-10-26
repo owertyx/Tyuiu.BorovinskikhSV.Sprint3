@@ -12,7 +12,7 @@ namespace Tyuiu.BorovinskikhSV.Sprint3.Task0.V20.Test
             DataService ds = new DataService();
             double res = ds.GetMultiplySeries(1, 1, 14);
             double wait = 287.18;
-            Assert.AreEqual(wait, res,);
+            Assert.AreEqual(wait, res);
         }
     }
 }
