@@ -9,7 +9,7 @@ namespace TestProject1Tyuiu.BorovinskikhSV.Sprint3.Task2.V21.Test
         {
             DataService ds = new DataService();
             double res = ds.GetSumSeries(1.5, 1, 10);
-            double wait = 0.24;
+            double wait = 0.298;
             Assert.AreEqual(wait, res);
         }
     }

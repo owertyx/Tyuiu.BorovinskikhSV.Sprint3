@@ -29,7 +29,7 @@ namespace Tyuiu.BorovinskikhSV.Sprint3.Task2.V21
             int stopValue = 10;
             double s = ds.GetSumSeries(x, startValue, stopValue);
 
-            Console.WriteLine("* S = " + $"{s:F2}".PadRight(66) + " *");
+            Console.WriteLine("* S = " + $"{s:F3}".PadRight(66) + " *");
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }

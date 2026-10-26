@@ -9,11 +9,11 @@ namespace Tyuiu.BorovinskikhSV.Sprint3.Task2.V21.Lib
             int k = startValue;
             do
             {
-                s += Math.Pow(1 / (Math.Sin(k) + 2 * Math.Pow(value, 2)), k);
+                s += Math.Pow(1 / (Math.Sin(k) + 2 * Math.Pow(value, k)), k);
                 k++;
             }
             while (k <= stopValue);
-            return Math.Round(s, 2);
+            return Math.Round(s, 3);
         }
     }
 }
