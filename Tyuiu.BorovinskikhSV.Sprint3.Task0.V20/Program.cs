@@ -29,7 +29,7 @@ namespace Tyuiu.BorovinskikhSV.Sprint3.Task0.V20
             int stopValue = 14;
             double p = ds.GetMultiplySeries(x, startValue, stopValue);
 
-            Console.WriteLine("* p = " + $"{p:F4}".PadRight(66) + " *");
+            Console.WriteLine("* p = " + $"{p:F2}".PadRight(66) + " *");
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }
